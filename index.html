@@ -1,55 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Flag Project</title>
-  <style>
-    .flag{
-      width: 900px;
-      height: 600px;
-      background-color: #ce1126;
-      position: relative;
-    }
-    .flag > div{
-      width: 100%;
-      height: 300%;
-      background-color: #002868;
-      position:absolute;
-      top:150px;
-    }
-    .flag > div > div{
-      width: 200px;
-      height: 200px;
-      background-color: white;
-      border-radius: 50%;
-      position:absolute;
-      top: 50px;
-      left: 350px;
-
-    }
-    p{
-      margin: 0;
-      font-size: 5rem;
-      text-align: center;
-      color: white;
-    }
-    body > div > div > div > p{
-      color: black;
-    }
-    
-  </style>
+  <title>Flexbox Pricing Table</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
-  <div class="flag">
-    <p>The Flag</p>
-    <div>
-      <div>
-        <p>of Laos</p>
-      </div>
+  <div class="pricing-container">
+    <div class="pricing-plan">
+      <div class="plan-title">Regular</div>
+      <div class="plan-price">$11.99/month</div>
+      <ul class="plan-features">
+        <li>✅ 10GB Storage</li>
+        <li>✅ 1 User</li>
+        <li>🚫 Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">Standard</div>
+      <div class="plan-price">$19.99/month</div>
+      <ul class="plan-features">
+        <li>✅ 50GB Storage</li>
+        <li>✅ 5 Users</li>
+        <li>✅ Phone &amp; Email Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
+    </div>
+    <div class="pricing-plan">
+      <div class="plan-title">High-Class</div>
+      <div class="plan-price">$49.99/month</div>
+      <ul class="plan-features">
+        <li>✅ 100GB Storage</li>
+        <li>✅ 10 Users</li>
+        <li>✅ 24/7 Customer Support</li>
+      </ul>
+      <button class="plan-button">Sign Up</a>
     </div>
   </div>
+
 </body>
 
 </html>
